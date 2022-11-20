@@ -7,4 +7,6 @@ def print_hi(name):
 
 
 if __name__ == '__main__':
-    print_hi('PyCharm')
+    for i in range(0, 100):
+        print_hi('PyCharm the time is {}'.format(datetime.now()))
+        sleep(1)

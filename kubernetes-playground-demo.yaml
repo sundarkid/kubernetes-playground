@@ -1,7 +1,7 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: nginx-deployment
+  name: demo-app-deployment
   labels:
     app: demo-app
 spec:
@@ -17,5 +17,6 @@ spec:
       containers:
       - name: demo-app
         image: sundarkid/demo-container:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
