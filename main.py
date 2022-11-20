@@ -3,7 +3,7 @@ from time import sleep
 
 
 def print_hi(name):
-    print(f'Hi, {name}')
+    print(f'Hi, {name}', flush=True)
 
 
 if __name__ == '__main__':
