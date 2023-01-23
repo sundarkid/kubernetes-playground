@@ -11,7 +11,7 @@ Go to Manage Jenkins → Manage Nodes and Clouds → Configure Clouds
 
 Create a new cloud configuration with Kubernetes.
 
-On the kubernetes server - The service account can be created with this yaml file - Service account (https://gecgithub01.walmart.com/s0c0a35/sup-docker-files/blob/master/kubernetes/jenkins-service-aaount.yaml)
+On the kubernetes server - The service account can be created with this yaml file - Service account [https://github.com/sundarkid/kubernetes-playground/blob/master/jenkins-service-aaount.yaml](https://github.com/sundarkid/kubernetes-playground/blob/master/jenkins-service-aaount.yaml)
 
 Follow this documentation from cloudbees for the setup of service accounts and kubernetes connection
 
